@@ -8,7 +8,7 @@ Most are simple enough to be relatively universal, but generally only tested wit
 
 A script that creates all of the boilerplate work for setting up a local Apache2 vhost
 
-Usage: add-site sitename.tld
+**Usage: add-site sitename.tld**
 
 boilerplate.loc.conf must exist in /etc/apache2/sites-available/
 
@@ -19,6 +19,6 @@ site root should be /var/www/sitename.tld
 
 A script that runs through the initialization steps for a new git repo
 
-Usage: gitinit https://url.to.git/repo [/path/to/gitignore/template] ##
+**Usage: gitinit https://url.to.git/repo [/path/to/gitignore/template]**
 
 Sets up gitignore defaults

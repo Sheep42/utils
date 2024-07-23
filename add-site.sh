@@ -28,6 +28,7 @@ else
 	#backup and add to hosts file
 	sudo cp /etc/hosts /etc/hosts.bak
 	sudo -- sh -c "echo 127.0.0.1    $1 >> /etc/hosts" 
+	sudo -- sh -c "echo 127.0.0.1    www.$1 >> /etc/hosts" 
 
 	sudo service apache2 restart
 fi
